@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121156083248",
+    "project_id": "paulovm-78d1f",
+    "storage_bucket": "paulovm-78d1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121156083248:android:f091ebc535bb32c424d7f5",
+        "android_client_info": {
+          "package_name": "com.xdliverblx.paulovm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIu_5L9asMBiYsBetu_2FDcLjzLiv-10g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
