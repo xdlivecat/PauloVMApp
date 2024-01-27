@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".MyActivity"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:ignore="MergeRootFrame">
+
+    <Button
+        android:id="@+id/clearcacheButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/webview"
+        android:layout_marginBottom="-51dp"
+        android:text="Clear Cache" />
+
+    <Button
+        android:id="@+id/toggleKeyboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/webview"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-51dp"
+        android:text="Toggle Keyboard" />
+
+    <FrameLayout
+        android:id="@+id/ad_view_container"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="0dp" />
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="wrap_content"
+        android:layout_height="621dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginEnd="1dp">
+
+    </WebView>
+
+</RelativeLayout>

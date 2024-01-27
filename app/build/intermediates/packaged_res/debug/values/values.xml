@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="Settings" translatable="false">Settings</string>
+    <string name="app_name">PauloVM</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1451772312405789/2616836736</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="more_menu" translatable="false">More</string>
+    <string name="privacy_settings" translatable="false">Privacy Settings</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+    </style>
+</resources>

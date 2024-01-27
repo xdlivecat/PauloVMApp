@@ -1,0 +1,4 @@
+com.xdliverblx.paulovm.test.app-androidTest-0 D:\PauloVM millionth\BannerExample\app\build\generated\res\resValues\androidTest\debug
+com.xdliverblx.paulovm.test.app-mergeDebugAndroidTestResources-1 D:\PauloVM millionth\BannerExample\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.xdliverblx.paulovm.test.app-mergeDebugAndroidTestResources-2 D:\PauloVM millionth\BannerExample\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.xdliverblx.paulovm.test.app-merged_res-3 D:\PauloVM millionth\BannerExample\app\build\intermediates\merged_res\debugAndroidTest

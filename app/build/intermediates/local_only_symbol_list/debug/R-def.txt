@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+drawable ic_launcher_background
+id action_more
+id ad_view_container
+id clearcacheButton
+id container
+id privacy_settings
+id settings
+id toggleKeyboardButton
+id webview
+layout activity_my
+menu action_menu
+menu popup_menu
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string Settings
+string app_name
+string banner_ad_unit_id
+string hello_world
+string more_menu
+string privacy_settings
+style AppTheme
+xml preferences
