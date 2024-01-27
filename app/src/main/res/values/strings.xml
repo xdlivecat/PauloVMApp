@@ -6,6 +6,7 @@
     <string name="more_menu" translatable="false">More</string>
     <string name="privacy_settings" translatable="false">Privacy Settings</string>
     <string name="Settings" translatable="false">Settings</string>
+    <string name="Menu" translatable="false">Menu</string>
 
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
     <string name="banner_ad_unit_id">ca-app-pub-1451772312405789/2616836736</string>

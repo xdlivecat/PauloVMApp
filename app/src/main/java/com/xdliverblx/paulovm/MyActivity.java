@@ -68,26 +68,6 @@ public class MyActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
-
-
-        Button toggleKeyboardButton = findViewById(R.id.toggleKeyboardButton);
-
-        Button clearCacheButton = findViewById(R.id.clearcacheButton);
-
-        toggleKeyboardButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                toggleKeyboard();
-            }
-        });
-
-        clearCacheButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                webView.clearCache(true);
-            }
-        });
     }
     public class mywebClient extends WebViewClient {
         @Override
@@ -125,14 +105,15 @@ public class MyActivity extends AppCompatActivity {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
                 switch (item.getItemId()) {
-                    case R.id.action_settings:
-                        // Handle Settings click
+                    case R.id.toggleKeyboardButton:
+                        toggleKeyboard();
                         return true;
-                    case R.id.action_help:
-                        // Handle Help click
+                    case R.id.clearCacheButton:
+                        WebView webView = (WebView) findViewById(R.id.webview);
+                        webView.clearCache(true);
                         return true;
-                    case R.id.action_about:
-                        // Handle About click
+                    case R.id.signin:
+                        setContentView(R.layout.activity_signin);
                         return true;
                     default:
                         return false;

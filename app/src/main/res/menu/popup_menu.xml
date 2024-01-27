@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/toggleKeyboardButton"
+        android:title="Toggle Keyboard" />
+    <item
+        android:id="@+id/clearCacheButton"
+        android:title="Clear Cache" />
+    <item
+        android:id="@+id/signin"
+        android:title="Sign In" />
+</menu>
