@@ -1,444 +1,408 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.xdliverblx.paulovm"
-4    android:versionCode="28"
-5    android:versionName="1.41" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+4    android:versionCode="29"
+5    android:versionName="1.5" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
 6    <uses-sdk
 7        android:minSdkVersion="26"
 8        android:targetSdkVersion="34" />
 9
 10    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-10-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:4:3-93
-10-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:4:20-74
+10-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:4:3-93
+10-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:4:20-74
 11    <uses-permission android:name="com.android.permission.INTERNET" />
-11-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:5:3-85
-11-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:5:20-66
+11-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:5:3-85
+11-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:5:20-66
 12
 13    <supports-screens
-13-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:7:3-11:25
+13-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:7:3-11:25
 14        android:largeScreens="true"
-14-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:9:5-32
+14-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:9:5-32
 15        android:normalScreens="true"
-15-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:8:5-33
+15-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:8:5-33
 16        android:smallScreens="true"
-16-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:7:21-48
+16-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:7:21-48
 17        android:xlargeScreens="true" />
-17-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:10:5-33
+17-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:10:5-33
 18
-19    <!-- Include required permissions for Google Mobile Ads to run -->
-20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:24:5-67
-20-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:24:22-64
-21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-21-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:25:5-79
-21-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:25:22-76
-22    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-22-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:27:5-82
-22-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:27:22-79
-23    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-23-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:28:5-88
-23-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:28:22-85
-24    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
-24-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:29:5-83
-24-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:29:22-80
-25    <queries>
-25-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:35:5-51:15
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:5-67
+19-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:25:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:26:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+21-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+22    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+22-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+22-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+23    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+23-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+23-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+24    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+24-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ddfa1882f06cc0cca633a1e33ab042d5\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:5-98
+24-->[com.google.android.recaptcha:recaptcha:18.4.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ddfa1882f06cc0cca633a1e33ab042d5\transformed\jetified-recaptcha-18.4.0\AndroidManifest.xml:9:22-95
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
 26
-27        <!-- For browser content -->
-28        <intent>
-28-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:38:9-44:18
-29            <action android:name="android.intent.action.VIEW" />
-29-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:39:13-65
-29-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:39:21-62
+27    <permission
+27-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.xdliverblx.paulovm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 30
-31            <category android:name="android.intent.category.BROWSABLE" />
-31-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:41:13-74
-31-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:41:23-71
+31    <uses-permission android:name="com.xdliverblx.paulovm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 32
-33            <data android:scheme="https" />
-33-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:43:13-44
-33-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:43:19-41
-34        </intent>
-35        <!-- End of browser content -->
-36        <!-- For CustomTabsService -->
-37        <intent>
-37-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:47:9-49:18
-38            <action android:name="android.support.customtabs.action.CustomTabsService" />
-38-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:48:13-90
-38-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:48:21-87
-39        </intent>
-40        <!-- End of CustomTabsService -->
-41    </queries>
-42
-43    <uses-permission android:name="android.permission.WAKE_LOCK" />
-43-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\950e96dffbc32fb570a460b1dd45d55a\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:5-68
-43-->[com.google.android.gms:play-services-measurement-sdk-api:20.1.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\950e96dffbc32fb570a460b1dd45d55a\transformed\jetified-play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:25:22-65
-44    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-44-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:5-77
-44-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:28:22-74
-45
-46    <application
-46-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:13:3-39:17
-47        android:allowBackup="true"
-47-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:14:7-33
-48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.8.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\04d714687fba89380c645dca8eb3cec5\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-49        android:debuggable="true"
-50        android:extractNativeLibs="false"
-51        android:icon="@mipmap/ic_launcher"
-51-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:15:7-41
-52        android:label="@string/app_name"
-52-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:16:7-39
-53        android:taskAffinity=""
-53-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:17:7-30
-54        android:testOnly="true"
-55        android:theme="@style/AppTheme"
-55-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:19:7-38
-56        android:usesCleartextTraffic="true" >
-56-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:18:7-42
-57        <activity
-57-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:20:5-27:16
-58            android:name="com.xdliverblx.paulovm.MyActivity"
-58-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:21:9-35
-59            android:exported="true" >
-59-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:22:9-32
-60            <intent-filter>
-60-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:23:7-26:23
-61                <action android:name="android.intent.action.MAIN" />
-61-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:24:9-61
-61-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:24:17-58
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:25:9-69
-63-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:25:19-66
-64            </intent-filter>
-65        </activity>
-66        <activity
-66-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:28:5-34:16
-67            android:name="com.xdliverblx.paulovm.SettingsActivity"
-67-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:28:15-47
-68            android:exported="true" >
-68-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:29:9-32
-69            <intent-filter>
-69-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:30:7-33:23
-70                <action android:name="android.intent.action.MAIN" />
-70-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:24:9-61
-70-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:24:17-58
+33    <application
+33-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-48:17
+34        android:allowBackup="true"
+34-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:14:7-33
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:15:7-41
+39        android:label="@string/app_name"
+39-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:16:7-39
+40        android:taskAffinity=""
+40-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:17:7-30
+41        android:testOnly="true"
+42        android:theme="@style/AppTheme"
+42-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:19:7-38
+43        android:usesCleartextTraffic="true" >
+43-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:18:7-42
+44        <activity
+44-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:20:5-27:16
+45            android:name="com.xdliverblx.paulovm.SplashScreenActivity"
+45-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:20:15-51
+46            android:exported="true" >
+46-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:21:9-32
+47            <intent-filter>
+47-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:22:7-26:23
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:9-61
+48-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:17-58
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:9-69
+50-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:19-66
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:28:5-35:16
+54            android:name="com.xdliverblx.paulovm.MyActivity"
+54-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:29:9-35
+55            android:exported="true" >
+55-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:30:9-32
+56            <intent-filter>
+56-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:22:7-26:23
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:9-61
+57-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:17-58
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:9-69
+59-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:19-66
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:36:5-43:16
+63            android:name="com.xdliverblx.paulovm.SigninActivity"
+63-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:37:9-39
+64            android:exported="true" >
+64-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:38:9-32
+65            <intent-filter>
+65-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:22:7-26:23
+66                <action android:name="android.intent.action.MAIN" />
+66-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:9-61
+66-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:23:17-58
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:9-69
+68-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:19-66
+69            </intent-filter>
+70        </activity>
 71
-72                <category android:name="android.intent.category.PREFERENCE" />
-72-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:32:9-71
-72-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:32:19-68
-73            </intent-filter>
-74        </activity>
+72        <meta-data
+72-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:45:5-47:65
+73            android:name="com.google.android.gms.ads.APPLICATION_ID"
+73-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:46:9-65
+74            android:value="ca-app-pub-1451772312405789~3418836418" />
+74-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:47:9-63
 75
-76        <meta-data
-76-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:36:5-38:65
-77            android:name="com.google.android.gms.ads.APPLICATION_ID"
-77-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:37:9-65
-78            android:value="ca-app-pub-1451772312405789~3418836418" />
-78-->D:\PauloVM millionth\BannerExample\app\src\main\AndroidManifest.xml:38:9-63
-79        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-80        <activity
-80-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:56:9-61:43
-81            android:name="com.google.android.gms.ads.AdActivity"
-81-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:57:13-65
-82            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-82-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:58:13-122
-83            android:exported="false"
-83-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:59:13-37
-84            android:theme="@android:style/Theme.Translucent" />
-84-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:60:13-61
-85
-86        <provider
-86-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:63:9-68:43
-87            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-87-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:64:13-76
-88            android:authorities="com.xdliverblx.paulovm.mobileadsinitprovider"
-88-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:65:13-73
-89            android:exported="false"
-89-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:66:13-37
-90            android:initOrder="100" />
-90-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:67:13-36
-91
-92        <service
-92-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:70:9-74:43
-93            android:name="com.google.android.gms.ads.AdService"
-93-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:71:13-64
-94            android:enabled="true"
-94-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:72:13-35
-95            android:exported="false" />
-95-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:73:13-37
-96
-97        <activity
-97-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:76:9-80:43
-98            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-98-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:77:13-82
-99            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-99-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:78:13-122
-100            android:exported="false" />
-100-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:79:13-37
-101        <activity
-101-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:81:9-88:43
-102            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-102-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:82:13-82
-103            android:excludeFromRecents="true"
-103-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:83:13-46
-104            android:exported="false"
-104-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:84:13-37
-105            android:launchMode="singleTask"
-105-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:85:13-44
-106            android:taskAffinity=""
-106-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:86:13-36
-107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-107-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:87:13-72
-108
-109        <property
-109-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:90:9-92:62
-110            android:name="android.adservices.AD_SERVICES_CONFIG"
-110-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:91:13-65
-111            android:resource="@xml/gma_ad_services_config" />
-111-->[com.google.android.gms:play-services-ads-lite:22.6.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\AndroidManifest.xml:92:13-59
+76        <activity
+76-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20
+77            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+77-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:30:13-80
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:31:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:32:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:33:13-44
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+81-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:34:13-72
+82            <intent-filter>
+82-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:35:13-45:29
+83                <action android:name="android.intent.action.VIEW" />
+83-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+83-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+84
+85                <category android:name="android.intent.category.DEFAULT" />
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+85-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+86                <category android:name="android.intent.category.BROWSABLE" />
+86-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+86-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+87
+88                <data
+88-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+89                    android:host="firebase.auth"
+89-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+90                    android:path="/"
+90-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+91                    android:scheme="genericidp" />
+91-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:47:9-64:20
+95            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+95-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:48:13-79
+96            android:excludeFromRecents="true"
+96-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:49:13-46
+97            android:exported="true"
+97-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:50:13-36
+98            android:launchMode="singleTask"
+98-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:51:13-44
+99            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+99-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:52:13-72
+100            <intent-filter>
+100-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:53:13-63:29
+101                <action android:name="android.intent.action.VIEW" />
+101-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:17-69
+101-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:36:25-66
+102
+103                <category android:name="android.intent.category.DEFAULT" />
+103-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:17-76
+103-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:38:27-73
+104                <category android:name="android.intent.category.BROWSABLE" />
+104-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:17-78
+104-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:39:27-75
+105
+106                <data
+106-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:41:17-44:51
+107                    android:host="firebase.auth"
+107-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:42:21-49
+108                    android:path="/"
+108-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:43:21-37
+109                    android:scheme="recaptcha" />
+109-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:44:21-48
+110            </intent-filter>
+111        </activity>
 112
-113        <uses-library
-113-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f2cdf0b6ddf7bab8c4b655905ad9be75\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
-114            android:name="android.ext.adservices"
-114-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f2cdf0b6ddf7bab8c4b655905ad9be75\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
-115            android:required="false" />
-115-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f2cdf0b6ddf7bab8c4b655905ad9be75\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
-116
-117        <activity
-117-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\733a83ba7117f0997660737339654cde\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
-118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-118-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\733a83ba7117f0997660737339654cde\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:20:19-85
-119            android:exported="false"
-119-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\733a83ba7117f0997660737339654cde\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:22:19-43
-120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-120-->[com.google.android.gms:play-services-base:18.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\733a83ba7117f0997660737339654cde\transformed\jetified-play-services-base-18.0.0\AndroidManifest.xml:21:19-78
-121
-122        <meta-data
-122-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\63b1e878a06089a3080018a756e60178\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
-123            android:name="com.google.android.gms.version"
-123-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\63b1e878a06089a3080018a756e60178\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
-124            android:value="@integer/google_play_services_version" />
-124-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\63b1e878a06089a3080018a756e60178\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
-125
-126        <uses-library
-126-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
-127            android:name="androidx.window.extensions"
-127-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
-128            android:required="false" />
-128-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
-129        <uses-library
-129-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
-130            android:name="androidx.window.sidecar"
-130-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
-131            android:required="false" />
-131-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
-132
-133        <provider
-133-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:31:9-39:20
-134            android:name="androidx.startup.InitializationProvider"
-134-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:32:13-67
-135            android:authorities="com.xdliverblx.paulovm.androidx-startup"
-135-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:33:13-68
-136            android:exported="false" >
-136-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:34:13-37
-137            <meta-data
-137-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:36:13-38:52
-138                android:name="androidx.work.WorkManagerInitializer"
-138-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:37:17-68
-139                android:value="androidx.startup" />
-139-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:38:17-49
-140        </provider>
-141
-142        <service
-142-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:41:9-46:35
-143            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-143-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:42:13-88
-144            android:directBootAware="false"
-144-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:43:13-44
-145            android:enabled="@bool/enable_system_alarm_service_default"
-145-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:44:13-72
-146            android:exported="false" />
-146-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:45:13-37
-147        <service
-147-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:47:9-53:35
-148            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-148-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:48:13-84
-149            android:directBootAware="false"
-149-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:49:13-44
-150            android:enabled="@bool/enable_system_job_service_default"
-150-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:50:13-70
-151            android:exported="true"
-151-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:51:13-36
-152            android:permission="android.permission.BIND_JOB_SERVICE" />
-152-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:52:13-69
-153        <service
-153-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:54:9-59:35
-154            android:name="androidx.work.impl.foreground.SystemForegroundService"
-154-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:55:13-81
-155            android:directBootAware="false"
-155-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:56:13-44
-156            android:enabled="@bool/enable_system_foreground_service_default"
-156-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:57:13-77
-157            android:exported="false" />
-157-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:58:13-37
-158
-159        <receiver
-159-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:61:9-66:35
-160            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-160-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:62:13-88
-161            android:directBootAware="false"
-161-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:63:13-44
-162            android:enabled="true"
-162-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:64:13-35
-163            android:exported="false" />
-163-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:65:13-37
-164        <receiver
-164-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:67:9-77:20
-165            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-165-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:68:13-106
-166            android:directBootAware="false"
-166-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:69:13-44
-167            android:enabled="false"
-167-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:70:13-36
-168            android:exported="false" >
-168-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:71:13-37
-169            <intent-filter>
-169-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:73:13-76:29
-170                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-170-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:17-87
-170-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:74:25-84
-171                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-171-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:17-90
-171-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:75:25-87
-172            </intent-filter>
-173        </receiver>
-174        <receiver
-174-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:78:9-88:20
-175            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-175-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:79:13-104
-176            android:directBootAware="false"
-176-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:80:13-44
-177            android:enabled="false"
-177-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:81:13-36
+113        <service
+113-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:66:9-72:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:67:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:68:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:69:13-71:85
+118                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+118-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:70:17-109
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:71:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+124                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+124-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+127-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1617dd927a54ce57519137cc67265e83\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\342ea852c0802cbd6213e832e3d7725f\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+130                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+130-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\342ea852c0802cbd6213e832e3d7725f\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\342ea852c0802cbd6213e832e3d7725f\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+133                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+133-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+135        </service>
+136
+137        <property
+137-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+138            android:name="android.adservices.AD_SERVICES_CONFIG"
+138-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+139            android:resource="@xml/ga_ad_services_config" />
+139-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+140
+141        <provider
+141-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+142            android:name="com.google.firebase.provider.FirebaseInitProvider"
+142-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+143            android:authorities="com.xdliverblx.paulovm.firebaseinitprovider"
+143-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+144            android:directBootAware="true"
+144-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+145            android:exported="false"
+145-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+146            android:initOrder="100" />
+146-->[com.google.firebase:firebase-common:20.4.2] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+147
+148        <uses-library
+148-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+149            android:name="androidx.window.extensions"
+149-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+150            android:required="false" />
+150-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+151        <uses-library
+151-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+152            android:name="androidx.window.sidecar"
+152-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+153            android:required="false" />
+153-->[androidx.window:window:1.0.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+154
+155        <activity
+155-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\10d9f2ea659698ce1dd19dfee4dd0353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+156-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\10d9f2ea659698ce1dd19dfee4dd0353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\10d9f2ea659698ce1dd19dfee4dd0353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+158-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\10d9f2ea659698ce1dd19dfee4dd0353\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+159
+160        <provider
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+161            android:name="androidx.startup.InitializationProvider"
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+162            android:authorities="com.xdliverblx.paulovm.androidx-startup"
+162-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+163            android:exported="false" >
+163-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+164            <meta-data
+164-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+165                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+166                android:value="androidx.startup" />
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+167            <meta-data
+167-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b995cc8a773cb0356aee3d1a7d8d9e96\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+168                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+168-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b995cc8a773cb0356aee3d1a7d8d9e96\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+169                android:value="androidx.startup" />
+169-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b995cc8a773cb0356aee3d1a7d8d9e96\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+170            <meta-data
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+172                android:value="androidx.startup" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+173        </provider>
+174
+175        <receiver
+175-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+176            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+176-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
 178            android:exported="false" >
-178-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:82:13-37
-179            <intent-filter>
-179-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:84:13-87:29
-180                <action android:name="android.intent.action.BATTERY_OKAY" />
-180-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:17-77
-180-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:85:25-74
-181                <action android:name="android.intent.action.BATTERY_LOW" />
-181-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:17-76
-181-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:86:25-73
-182            </intent-filter>
-183        </receiver>
-184        <receiver
-184-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:89:9-99:20
-185            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-185-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:90:13-104
-186            android:directBootAware="false"
-186-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:91:13-44
-187            android:enabled="false"
-187-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:92:13-36
-188            android:exported="false" >
-188-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:93:13-37
-189            <intent-filter>
-189-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:95:13-98:29
-190                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-190-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:17-83
-190-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:96:25-80
-191                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-191-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:17-82
-191-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:97:25-79
-192            </intent-filter>
-193        </receiver>
-194        <receiver
-194-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:100:9-109:20
-195            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-195-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:101:13-103
-196            android:directBootAware="false"
-196-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:102:13-44
-197            android:enabled="false"
-197-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:103:13-36
-198            android:exported="false" >
-198-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:104:13-37
-199            <intent-filter>
-199-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:106:13-108:29
-200                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-200-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:17-79
-200-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:107:25-76
-201            </intent-filter>
-202        </receiver>
-203        <receiver
-203-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:110:9-121:20
-204            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-204-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:111:13-88
-205            android:directBootAware="false"
-205-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:112:13-44
-206            android:enabled="false"
-206-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:113:13-36
-207            android:exported="false" >
-207-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:114:13-37
+178-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+179        </receiver>
+180
+181        <service
+181-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+182            android:name="com.google.android.gms.measurement.AppMeasurementService"
+182-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+184            android:exported="false" />
+184-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+185        <service
+185-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+186            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+186-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" />
+189-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3089e6021c5f825c1d09dd9f0bfaa0ba\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+190
+191        <uses-library
+191-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f75bb3404b318f148232878fb920692a\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+192            android:name="android.ext.adservices"
+192-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f75bb3404b318f148232878fb920692a\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+193            android:required="false" />
+193-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f75bb3404b318f148232878fb920692a\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+194
+195        <meta-data
+195-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\d4b2d0a44f7054577dd9f23a443ddf1f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+196            android:name="com.google.android.gms.version"
+196-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\d4b2d0a44f7054577dd9f23a443ddf1f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+197            android:value="@integer/google_play_services_version" />
+197-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\d4b2d0a44f7054577dd9f23a443ddf1f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+198
+199        <receiver
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+200            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+201            android:directBootAware="false"
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+202            android:enabled="true"
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+203            android:exported="true"
+203-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+204            android:permission="android.permission.DUMP" >
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+205            <intent-filter>
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+206                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+206-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+207            </intent-filter>
 208            <intent-filter>
-208-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:116:13-120:29
-209                <action android:name="android.intent.action.BOOT_COMPLETED" />
-209-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:17-79
-209-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:117:25-76
-210                <action android:name="android.intent.action.TIME_SET" />
-210-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:17-73
-210-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:118:25-70
-211                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-211-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:17-81
-211-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:119:25-78
-212            </intent-filter>
-213        </receiver>
-214        <receiver
-214-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:122:9-131:20
-215            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-215-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:123:13-99
-216            android:directBootAware="false"
-216-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:124:13-44
-217            android:enabled="@bool/enable_system_alarm_service_default"
-217-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:125:13-72
-218            android:exported="false" >
-218-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:126:13-37
-219            <intent-filter>
-219-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:128:13-130:29
-220                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-220-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:17-98
-220-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:129:25-95
-221            </intent-filter>
-222        </receiver>
-223        <receiver
-223-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:132:9-142:20
-224            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-224-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:133:13-78
-225            android:directBootAware="false"
-225-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:134:13-44
-226            android:enabled="true"
-226-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:135:13-35
-227            android:exported="true"
-227-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:136:13-36
-228            android:permission="android.permission.DUMP" >
-228-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:137:13-57
-229            <intent-filter>
-229-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:139:13-141:29
-230                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-230-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:17-88
-230-->[androidx.work:work-runtime:2.7.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\AndroidManifest.xml:140:25-85
-231            </intent-filter>
-232        </receiver>
-233
-234        <service
-234-->[androidx.room:room-runtime:2.2.5] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\345cc429aea62baafa37ff5321b91270\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
-235            android:name="androidx.room.MultiInstanceInvalidationService"
-235-->[androidx.room:room-runtime:2.2.5] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\345cc429aea62baafa37ff5321b91270\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
-236            android:directBootAware="true"
-236-->[androidx.room:room-runtime:2.2.5] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\345cc429aea62baafa37ff5321b91270\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
-237            android:exported="false" />
-237-->[androidx.room:room-runtime:2.2.5] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\345cc429aea62baafa37ff5321b91270\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
-238    </application>
-239
-240</manifest>
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+209                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+209-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+210            </intent-filter>
+211            <intent-filter>
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+212                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+212-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+213            </intent-filter>
+214            <intent-filter>
+214-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+215                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+215-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+216            </intent-filter>
+217        </receiver>
+218    </application>
+219
+220</manifest>

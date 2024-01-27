@@ -69,6 +69,8 @@ public class MyActivity extends AppCompatActivity {
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }
+
+    Button menuButton = findViewById(R.id.button_popup);
     public class mywebClient extends WebViewClient {
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -122,5 +124,4 @@ public class MyActivity extends AppCompatActivity {
         });
         popupMenu.show();
     }
-
 }

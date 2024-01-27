@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "com.xdliverblx.paulovm.app-mergeDebugResources-34:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.xdliverblx.paulovm.app-mergeDebugResources-46:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\#Maxwell2024\\.gradle\\caches\\transforms-3\\d6c443ef24ca50f05d566f9e09a3f6d9\\transformed\\appcompat-1.2.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\#Maxwell2024\\.gradle\\caches\\transforms-3\\1af505152c8f3248dfd5456c8b67580a\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,169,285,407",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "164,280,402,536"
+                    },
+                    "to": {
+                        "startLines": "11,12,13,14",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "752,866,982,1104",
+                        "endColumns": "113,115,121,133",
+                        "endOffsets": "861,977,1099,1233"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\#Maxwell2024\\.gradle\\caches\\transforms-3\\7090433b86cc375ab39a627194b1ff71\\transformed\\appcompat-1.6.1\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

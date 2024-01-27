@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xdliverblx.paulovm"
-    android:versionCode="28"
-    android:versionName="1.41" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    android:versionCode="29"
+    android:versionName="1.5" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
     <uses-sdk
         android:minSdkVersion="26"
         android:targetSdkVersion="34" />
@@ -16,32 +16,19 @@
         android:smallScreens="true"
         android:xlargeScreens="true" />
 
-    <!-- Include required permissions for Google Mobile Ads to run -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" /> <!-- Android package visibility setting -->
-    <queries>
-
-        <!-- For browser content -->
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-
-            <category android:name="android.intent.category.BROWSABLE" />
-
-            <data android:scheme="https" />
-        </intent>
-        <!-- End of browser content -->
-        <!-- For CustomTabsService -->
-        <intent>
-            <action android:name="android.support.customtabs.action.CustomTabsService" />
-        </intent>
-        <!-- End of CustomTabsService -->
-    </queries>
-
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <permission
+        android:name="com.xdliverblx.paulovm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.xdliverblx.paulovm.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -55,6 +42,15 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.xdliverblx.paulovm.SplashScreenActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.xdliverblx.paulovm.MyActivity"
             android:exported="true" >
             <intent-filter>
@@ -64,64 +60,90 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xdliverblx.paulovm.SettingsActivity"
+            android:name="com.xdliverblx.paulovm.SigninActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.PREFERENCE" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-1451772312405789~3418836418" />
-        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-        <activity
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent" />
 
-        <provider
-            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:authorities="com.xdliverblx.paulovm.mobileadsinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
+        <activity
+            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="genericidp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="firebase.auth"
+                    android:path="/"
+                    android:scheme="recaptcha" />
+            </intent-filter>
+        </activity>
 
         <service
-            android:name="com.google.android.gms.ads.AdService"
-            android:enabled="true"
-            android:exported="false" />
-
-        <activity
-            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:exported="false" />
-        <activity
-            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:launchMode="singleTask"
-            android:taskAffinity=""
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
 
         <property
             android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/gma_ad_services_config" />
+            android:resource="@xml/ga_ad_services_config" />
 
-        <uses-library
-            android:name="android.ext.adservices"
-            android:required="false" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.xdliverblx.paulovm.firebaseinitprovider"
+            android:directBootAware="true"
             android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:initOrder="100" />
 
         <uses-library
             android:name="androidx.window.extensions"
@@ -130,111 +152,69 @@
             android:name="androidx.window.sidecar"
             android:required="false" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.xdliverblx.paulovm.androidx-startup"
             android:exported="false" >
             <meta-data
-                android:name="androidx.work.WorkManagerInitializer"
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
                 android:value="androidx.startup" />
         </provider>
 
-        <service
-            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-            android:directBootAware="false"
-            android:enabled="@bool/enable_system_alarm_service_default"
-            android:exported="false" />
-        <service
-            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-            android:directBootAware="false"
-            android:enabled="@bool/enable_system_job_service_default"
-            android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE" />
-        <service
-            android:name="androidx.work.impl.foreground.SystemForegroundService"
-            android:directBootAware="false"
-            android:enabled="@bool/enable_system_foreground_service_default"
-            android:exported="false" />
-
         <receiver
-            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-            android:directBootAware="false"
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <receiver
-            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-            android:directBootAware="false"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-            android:directBootAware="false"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.BATTERY_OKAY" />
-                <action android:name="android.intent.action.BATTERY_LOW" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-            android:directBootAware="false"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-            android:directBootAware="false"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-            android:directBootAware="false"
-            android:enabled="false"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.intent.action.TIME_SET" />
-                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-            android:directBootAware="false"
-            android:enabled="@bool/enable_system_alarm_service_default"
-            android:exported="false" >
-            <intent-filter>
-                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"
             android:enabled="true"
             android:exported="true"
             android:permission="android.permission.DUMP" >
             <intent-filter>
-                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
-
-        <service
-            android:name="androidx.room.MultiInstanceInvalidationService"
-            android:directBootAware="true"
-            android:exported="false" />
     </application>
 
 </manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.xdliverblx.paulovm.app-mergeDebugResources-34:/values-sw360dp-v13/values-sw360dp-v13.xml",
+            "outputFile": "com.xdliverblx.paulovm.app-mergeDebugResources-46:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\#Maxwell2024\\.gradle\\caches\\transforms-3\\a0b100a0791565e42faa19f2c163968e\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "source": "C:\\Users\\#Maxwell2024\\.gradle\\caches\\transforms-3\\03a79477cbb3d9bef2873ecf62f3c483\\transformed\\preference-1.2.1\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
