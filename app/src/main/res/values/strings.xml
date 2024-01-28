@@ -7,6 +7,16 @@
     <string name="privacy_settings" translatable="false">Privacy Settings</string>
     <string name="Settings" translatable="false">Settings</string>
     <string name="Menu" translatable="false">Menu</string>
+    <string-array name="pref_language_entries">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+    </string-array>
 
     <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. -->
     <string name="banner_ad_unit_id">ca-app-pub-1451772312405789/2616836736</string>

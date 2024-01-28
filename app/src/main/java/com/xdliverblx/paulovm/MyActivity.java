@@ -17,6 +17,7 @@
 package com.xdliverblx.paulovm;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
@@ -43,6 +44,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
+import android.widget.ToggleButton;
 
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -68,9 +70,25 @@ public class MyActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        Button openSettings = findViewById(R.id.settings);
+        Button toggleKeyboard = findViewById(R.id.toggleKeyboardButton);
+
+        toggleKeyboard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                toggleKeyboard();
+            }
+        });
+
+        openSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MyActivity.this, SettingsFragment.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    Button menuButton = findViewById(R.id.button_popup);
     public class mywebClient extends WebViewClient {
         @Override
         public void onPageStarted(WebView view, String url, Bitmap favicon) {
@@ -99,29 +117,5 @@ public class MyActivity extends AppCompatActivity {
             imm.toggleSoftInput(InputMethodManager.SHOW_FORCED, 0);
         }
     }
-    public void showPopupMenu(View view) {
-        PopupMenu popupMenu = new PopupMenu(this, view);
-        MenuInflater inflater = popupMenu.getMenuInflater();
-        inflater.inflate(R.menu.popup_menu, popupMenu.getMenu());
-        popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-            @Override
-            public boolean onMenuItemClick(MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.toggleKeyboardButton:
-                        toggleKeyboard();
-                        return true;
-                    case R.id.clearCacheButton:
-                        WebView webView = (WebView) findViewById(R.id.webview);
-                        webView.clearCache(true);
-                        return true;
-                    case R.id.signin:
-                        setContentView(R.layout.activity_signin);
-                        return true;
-                    default:
-                        return false;
-                }
-            }
-        });
-        popupMenu.show();
-    }
+
 }

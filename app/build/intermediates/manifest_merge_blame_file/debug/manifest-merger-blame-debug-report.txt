@@ -2,7 +2,7 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.xdliverblx.paulovm"
 4    android:versionCode="29"
-5    android:versionName="1.5" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+5    android:versionName="1.5-beta-1" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
 6    <uses-sdk
 7        android:minSdkVersion="26"
 8        android:targetSdkVersion="34" />
@@ -59,7 +59,7 @@
 31-->[androidx.core:core:1.9.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 32
 33    <application
-33-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-48:17
+33-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-50:17
 34        android:allowBackup="true"
 34-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:14:7-33
 35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -96,8 +96,8 @@
 52        </activity>
 53        <activity
 53-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:28:5-35:16
-54            android:name="com.xdliverblx.paulovm.MyActivity"
-54-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:29:9-35
+54            android:name="com.xdliverblx.paulovm.SigninActivity"
+54-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:29:9-39
 55            android:exported="true" >
 55-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:30:9-32
 56            <intent-filter>
@@ -113,8 +113,8 @@
 61        </activity>
 62        <activity
 62-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:36:5-43:16
-63            android:name="com.xdliverblx.paulovm.SigninActivity"
-63-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:37:9-39
+63            android:name="com.xdliverblx.paulovm.MyActivity"
+63-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:37:9-35
 64            android:exported="true" >
 64-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:38:9-32
 65            <intent-filter>
@@ -130,11 +130,11 @@
 70        </activity>
 71
 72        <meta-data
-72-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:45:5-47:65
+72-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:47:5-49:65
 73            android:name="com.google.android.gms.ads.APPLICATION_ID"
-73-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:46:9-65
+73-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:48:9-65
 74            android:value="ca-app-pub-1451772312405789~3418836418" />
-74-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:47:9-63
+74-->D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:49:9-63
 75
 76        <activity
 76-->[com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:29:9-46:20

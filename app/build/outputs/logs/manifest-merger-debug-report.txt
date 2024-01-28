@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\4b4b64a538eb40becc077010ad72e7e3\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:17:1-75:12
 MERGED from [androidx.preference:preference-ktx:1.2.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ce313ac0f66aca4e80849feb5f0bf00b\transformed\jetified-preference-ktx-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -118,8 +118,8 @@ ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:7:3-11:
 	android:xlargeScreens
 		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:10:5-33
 application
-ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-48:17
-INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-48:17
+ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-50:17
+INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:13:3-50:17
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\4b4b64a538eb40becc077010ad72e7e3\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:21.5.0] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\4b4b64a538eb40becc077010ad72e7e3\transformed\jetified-firebase-analytics-21.5.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-auth:22.3.1] C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1c6fc479b91581639b19ec782dff0484\transformed\jetified-firebase-auth-22.3.1\AndroidManifest.xml:28:5-73:19
@@ -210,24 +210,24 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:9-69
 	android:name
 		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:25:19-66
-activity#com.xdliverblx.paulovm.MyActivity
+activity#com.xdliverblx.paulovm.SigninActivity
 ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:28:5-35:16
 	android:exported
 		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:30:9-32
 	android:name
-		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:29:9-35
-activity#com.xdliverblx.paulovm.SigninActivity
+		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:29:9-39
+activity#com.xdliverblx.paulovm.MyActivity
 ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:36:5-43:16
 	android:exported
 		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:38:9-32
 	android:name
-		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:37:9-39
+		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:37:9-35
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:45:5-47:65
+ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:47:5-49:65
 	android:value
-		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:47:9-63
+		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:49:9-63
 	android:name
-		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:46:9-65
+		ADDED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml:48:9-65
 uses-sdk
 INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\PauloVM millionth\PauloVM\app\src\main\AndroidManifest.xml

@@ -3343,8 +3343,8 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id buttonLogin
+id buttonLoginGuest
 id buttonPanel
-id button_popup
 id cancel_button
 id center
 id centerCrop

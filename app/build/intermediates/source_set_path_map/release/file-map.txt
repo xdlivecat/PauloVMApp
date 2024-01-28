@@ -1,39 +1,51 @@
-com.xdliverblx.paulovm.app-core-1.8.0-0 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\04d714687fba89380c645dca8eb3cec5\transformed\core-1.8.0\res
-com.xdliverblx.paulovm.app-jetified-lifecycle-viewmodel-ktx-2.5.1-1 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\131e5c545dccf32f04e557a9fff17f04\transformed\jetified-lifecycle-viewmodel-ktx-2.5.1\res
-com.xdliverblx.paulovm.app-lifecycle-livedata-core-2.5.1-2 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\169706b08af78011c1fce6706ae2ebc9\transformed\lifecycle-livedata-core-2.5.1\res
-com.xdliverblx.paulovm.app-jetified-preference-ktx-1.2.0-3 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1750848fb291ab0ef8e02fab4a527ff0\transformed\jetified-preference-ktx-1.2.0\res
-com.xdliverblx.paulovm.app-work-runtime-2.7.0-4 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\177f805e6e4f67542075cc34873e216b\transformed\work-runtime-2.7.0\res
-com.xdliverblx.paulovm.app-jetified-appcompat-resources-1.2.0-5 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3f16f3a638c23e23b16da50684fec7a7\transformed\jetified-appcompat-resources-1.2.0\res
-com.xdliverblx.paulovm.app-lifecycle-viewmodel-2.5.1-6 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\62229c05a832ee6a67b18657977c5e23\transformed\lifecycle-viewmodel-2.5.1\res
-com.xdliverblx.paulovm.app-jetified-lifecycle-runtime-ktx-2.5.1-7 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\63142dbdc1e09ea3835134a99b84fa46\transformed\jetified-lifecycle-runtime-ktx-2.5.1\res
-com.xdliverblx.paulovm.app-jetified-play-services-basement-18.2.0-8 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\63b1e878a06089a3080018a756e60178\transformed\jetified-play-services-basement-18.2.0\res
-com.xdliverblx.paulovm.app-jetified-annotation-experimental-1.1.0-9 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\6bed86375a25c9360b5f0461e2e8bb78\transformed\jetified-annotation-experimental-1.1.0\res
-com.xdliverblx.paulovm.app-jetified-savedstate-ktx-1.2.0-10 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\6eb79ad059a4a6946cc724524a36ead0\transformed\jetified-savedstate-ktx-1.2.0\res
-com.xdliverblx.paulovm.app-jetified-play-services-base-18.0.0-11 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\733a83ba7117f0997660737339654cde\transformed\jetified-play-services-base-18.0.0\res
-com.xdliverblx.paulovm.app-jetified-core-ktx-1.8.0-12 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\83834087af410063bc98f1117b68e32a\transformed\jetified-core-ktx-1.8.0\res
-com.xdliverblx.paulovm.app-jetified-activity-ktx-1.5.1-13 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\890fdb8f3819da9b6de7659d3e09b610\transformed\jetified-activity-ktx-1.5.1\res
-com.xdliverblx.paulovm.app-jetified-startup-runtime-1.0.0-14 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\919adfe1ffc165154eb7ccb968ffb7d5\transformed\jetified-startup-runtime-1.0.0\res
-com.xdliverblx.paulovm.app-jetified-play-services-ads-lite-22.6.0-15 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9833ca3423249eb7cd73e22c1ef73086\transformed\jetified-play-services-ads-lite-22.6.0\res
-com.xdliverblx.paulovm.app-recyclerview-1.0.0-16 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\996d6ad5b95d07815455ee047b861ac7\transformed\recyclerview-1.0.0\res
-com.xdliverblx.paulovm.app-lifecycle-runtime-2.5.1-17 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9e771de97ccc7a903478778f5c80cb67\transformed\lifecycle-runtime-2.5.1\res
-com.xdliverblx.paulovm.app-preference-1.2.1-18 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\a0b100a0791565e42faa19f2c163968e\transformed\preference-1.2.1\res
-com.xdliverblx.paulovm.app-browser-1.4.0-19 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\a5098a5507c0ba9e6bdb5d9fb05ff311\transformed\browser-1.4.0\res
-com.xdliverblx.paulovm.app-slidingpanelayout-1.2.0-20 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\a60c5ce81ef81d553a89ce4c1829c653\transformed\slidingpanelayout-1.2.0\res
-com.xdliverblx.paulovm.app-coordinatorlayout-1.0.0-21 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\a79401b6acf0fb838fcf90f805496991\transformed\coordinatorlayout-1.0.0\res
-com.xdliverblx.paulovm.app-jetified-lifecycle-viewmodel-savedstate-2.5.1-22 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\aa876ee07eff2f1d88749df46d682ddc\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
-com.xdliverblx.paulovm.app-jetified-savedstate-1.2.0-23 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b8c6e22fff6107d7917be066d6a2e2a4\transformed\jetified-savedstate-1.2.0\res
-com.xdliverblx.paulovm.app-jetified-ads-adservices-java-1.0.0-beta05-24 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b9cdcdf4e0ec586ab7f35af93fb75475\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
-com.xdliverblx.paulovm.app-appcompat-1.2.0-25 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\d6c443ef24ca50f05d566f9e09a3f6d9\transformed\appcompat-1.2.0\res
-com.xdliverblx.paulovm.app-transition-1.4.1-26 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\de7b26f76a8fda51e96403b6457c5acd\transformed\transition-1.4.1\res
-com.xdliverblx.paulovm.app-jetified-play-services-ads-22.6.0-27 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\e470ffe5d04944246cd7bcc1bb4332e6\transformed\jetified-play-services-ads-22.6.0\res
-com.xdliverblx.paulovm.app-fragment-1.3.6-28 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\e8aab66b1989008ac9afd67506ca5f90\transformed\fragment-1.3.6\res
-com.xdliverblx.paulovm.app-jetified-activity-1.5.1-29 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\efa4aa8fb1f4ab50db4858d85fad8f9a\transformed\jetified-activity-1.5.1\res
-com.xdliverblx.paulovm.app-jetified-ads-adservices-1.0.0-beta05-30 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f2cdf0b6ddf7bab8c4b655905ad9be75\transformed\jetified-ads-adservices-1.0.0-beta05\res
-com.xdliverblx.paulovm.app-jetified-window-1.0.0-31 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fcebf6280eaf5f6cb8c4664907e2ef47\transformed\jetified-window-1.0.0\res
-com.xdliverblx.paulovm.app-pngs-32 D:\PauloVM millionth\BannerExample\app\build\generated\res\pngs\release
-com.xdliverblx.paulovm.app-resValues-33 D:\PauloVM millionth\BannerExample\app\build\generated\res\resValues\release
-com.xdliverblx.paulovm.app-packageReleaseResources-34 D:\PauloVM millionth\BannerExample\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
-com.xdliverblx.paulovm.app-packageReleaseResources-35 D:\PauloVM millionth\BannerExample\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
-com.xdliverblx.paulovm.app-merged_res-36 D:\PauloVM millionth\BannerExample\app\build\intermediates\merged_res\release
-com.xdliverblx.paulovm.app-main-37 D:\PauloVM millionth\BannerExample\app\src\main\res
-com.xdliverblx.paulovm.app-release-38 D:\PauloVM millionth\BannerExample\app\src\release\res
+com.xdliverblx.paulovm.app-preference-1.2.1-0 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\03a79477cbb3d9bef2873ecf62f3c483\transformed\preference-1.2.1\res
+com.xdliverblx.paulovm.app-fragment-1.3.6-1 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\06f4dadab6b6213121d07bdf64a942a3\transformed\fragment-1.3.6\res
+com.xdliverblx.paulovm.app-jetified-firebase-common-20.4.2-2 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\108b7ae19f9a4d0aa6274f7c1d96329e\transformed\jetified-firebase-common-20.4.2\res
+com.xdliverblx.paulovm.app-jetified-play-services-base-18.0.1-3 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\10d9f2ea659698ce1dd19dfee4dd0353\transformed\jetified-play-services-base-18.0.1\res
+com.xdliverblx.paulovm.app-recyclerview-1.1.0-4 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\19c530429dda1ee53ef370dbafe89ed2\transformed\recyclerview-1.1.0\res
+com.xdliverblx.paulovm.app-material-1.11.0-5 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\1af505152c8f3248dfd5456c8b67580a\transformed\material-1.11.0\res
+com.xdliverblx.paulovm.app-jetified-ads-adservices-java-1.0.0-beta05-6 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\2eb72df0158c26b394762d7013bc7939\transformed\jetified-ads-adservices-java-1.0.0-beta05\res
+com.xdliverblx.paulovm.app-jetified-savedstate-1.2.1-7 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3a8e421ace427c65f84d12f43e6fd577\transformed\jetified-savedstate-1.2.1\res
+com.xdliverblx.paulovm.app-jetified-appcompat-resources-1.6.1-8 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\3c132726562a6af74e3a9187327e9c5e\transformed\jetified-appcompat-resources-1.6.1\res
+com.xdliverblx.paulovm.app-jetified-lifecycle-viewmodel-ktx-2.6.1-9 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\477fc44e27d1a58cbb814009d24979d1\transformed\jetified-lifecycle-viewmodel-ktx-2.6.1\res
+com.xdliverblx.paulovm.app-core-runtime-2.2.0-10 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\4e7a816cdb308f303661e2fb6a47e502\transformed\core-runtime-2.2.0\res
+com.xdliverblx.paulovm.app-jetified-lifecycle-livedata-core-ktx-2.6.1-11 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\51c0c97dab343967382fc533b0768708\transformed\jetified-lifecycle-livedata-core-ktx-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-emoji2-1.2.0-12 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\5e732f73902e59cc21dc58ce44268271\transformed\jetified-emoji2-1.2.0\res
+com.xdliverblx.paulovm.app-jetified-lifecycle-runtime-ktx-2.6.1-13 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\6195d17ccdd6e4f3e4d8488240914930\transformed\jetified-lifecycle-runtime-ktx-2.6.1\res
+com.xdliverblx.paulovm.app-lifecycle-runtime-2.6.1-14 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\61ea66736b873e8a5032813816fa2fb8\transformed\lifecycle-runtime-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-play-services-measurement-api-21.5.0-15 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\683a688c8da31c11c9f0f6d896d5258b\transformed\jetified-play-services-measurement-api-21.5.0\res
+com.xdliverblx.paulovm.app-coordinatorlayout-1.1.0-16 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\6ac17b9990b1f65c79f90cb7d7b5613b\transformed\coordinatorlayout-1.1.0\res
+com.xdliverblx.paulovm.app-appcompat-1.6.1-17 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\7090433b86cc375ab39a627194b1ff71\transformed\appcompat-1.6.1\res
+com.xdliverblx.paulovm.app-jetified-emoji2-views-helper-1.2.0-18 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\837ae6dc5844d8149d9f4d6ef86717a0\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.xdliverblx.paulovm.app-jetified-activity-1.8.0-19 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\855cf06625a3e9b289044df5d396bd77\transformed\jetified-activity-1.8.0\res
+com.xdliverblx.paulovm.app-browser-1.4.0-20 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\8633e14076daf97f1073eecd13bcd191\transformed\browser-1.4.0\res
+com.xdliverblx.paulovm.app-lifecycle-livedata-2.6.1-21 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\899d578cad03e5748a227d71f3d698ff\transformed\lifecycle-livedata-2.6.1\res
+com.xdliverblx.paulovm.app-lifecycle-viewmodel-2.6.1-22 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\8a8de56cdbf359924f71c31f6b459f60\transformed\lifecycle-viewmodel-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-23 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\8f01b76ea0cb07a4b145ffc14ecdacf5\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-annotation-experimental-1.3.0-24 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9071ca4d5715cec96792643a7555a31d\transformed\jetified-annotation-experimental-1.3.0\res
+com.xdliverblx.paulovm.app-jetified-window-1.0.0-25 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\944dd636588d14db5007dc9977b0c5ec\transformed\jetified-window-1.0.0\res
+com.xdliverblx.paulovm.app-jetified-activity-ktx-1.8.0-26 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\949a6ccb4af1bf903461565a0fe3525d\transformed\jetified-activity-ktx-1.8.0\res
+com.xdliverblx.paulovm.app-constraintlayout-2.0.1-27 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\97b945cdd171347417039c2e0594c2a3\transformed\constraintlayout-2.0.1\res
+com.xdliverblx.paulovm.app-jetified-viewpager2-1.0.0-28 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\9e87b4663aa0c4f4087a863e2ef0f70b\transformed\jetified-viewpager2-1.0.0\res
+com.xdliverblx.paulovm.app-drawerlayout-1.1.1-29 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ae47d99d4c8e66cd13417d3a02d1daff\transformed\drawerlayout-1.1.1\res
+com.xdliverblx.paulovm.app-core-1.9.0-30 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b162523e9ee3df69dee710ddfbed9b7a\transformed\core-1.9.0\res
+com.xdliverblx.paulovm.app-jetified-lifecycle-process-2.6.1-31 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\b995cc8a773cb0356aee3d1a7d8d9e96\transformed\jetified-lifecycle-process-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-profileinstaller-1.3.0-32 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ba1bbe08d09430a40b92a88c6698741c\transformed\jetified-profileinstaller-1.3.0\res
+com.xdliverblx.paulovm.app-jetified-savedstate-ktx-1.2.1-33 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\c2d466d4183b700d6376feda4642e16c\transformed\jetified-savedstate-ktx-1.2.1\res
+com.xdliverblx.paulovm.app-cardview-1.0.0-34 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\c5019dfb6489eaf081021d5f962978ec\transformed\cardview-1.0.0\res
+com.xdliverblx.paulovm.app-jetified-startup-runtime-1.1.1-35 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\c53ce11c1b10e188ba6bc7ec165338cf\transformed\jetified-startup-runtime-1.1.1\res
+com.xdliverblx.paulovm.app-jetified-core-ktx-1.9.0-36 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\c6e92472f1d2f0d03314ad96461355c8\transformed\jetified-core-ktx-1.9.0\res
+com.xdliverblx.paulovm.app-jetified-preference-ktx-1.2.0-37 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\ce313ac0f66aca4e80849feb5f0bf00b\transformed\jetified-preference-ktx-1.2.0\res
+com.xdliverblx.paulovm.app-jetified-play-services-basement-18.1.0-38 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\d4b2d0a44f7054577dd9f23a443ddf1f\transformed\jetified-play-services-basement-18.1.0\res
+com.xdliverblx.paulovm.app-slidingpanelayout-1.2.0-39 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\da97a00876ebb801fc5b8341237021ff\transformed\slidingpanelayout-1.2.0\res
+com.xdliverblx.paulovm.app-lifecycle-livedata-core-2.6.1-40 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\e3e86b80d3f46b5e42dc0d073242fa49\transformed\lifecycle-livedata-core-2.6.1\res
+com.xdliverblx.paulovm.app-jetified-ads-adservices-1.0.0-beta05-41 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\f75bb3404b318f148232878fb920692a\transformed\jetified-ads-adservices-1.0.0-beta05\res
+com.xdliverblx.paulovm.app-transition-1.4.1-42 C:\Users\#Maxwell2024\.gradle\caches\transforms-3\fc8eeb94bed76b6485b3a516fa405af7\transformed\transition-1.4.1\res
+com.xdliverblx.paulovm.app-pngs-43 D:\PauloVM millionth\PauloVM\app\build\generated\res\pngs\release
+com.xdliverblx.paulovm.app-res-44 D:\PauloVM millionth\PauloVM\app\build\generated\res\processReleaseGoogleServices
+com.xdliverblx.paulovm.app-resValues-45 D:\PauloVM millionth\PauloVM\app\build\generated\res\resValues\release
+com.xdliverblx.paulovm.app-packageReleaseResources-46 D:\PauloVM millionth\PauloVM\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.xdliverblx.paulovm.app-packageReleaseResources-47 D:\PauloVM millionth\PauloVM\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.xdliverblx.paulovm.app-merged_res-48 D:\PauloVM millionth\PauloVM\app\build\intermediates\merged_res\release
+com.xdliverblx.paulovm.app-main-49 D:\PauloVM millionth\PauloVM\app\src\main\res
+com.xdliverblx.paulovm.app-release-50 D:\PauloVM millionth\PauloVM\app\src\release\res

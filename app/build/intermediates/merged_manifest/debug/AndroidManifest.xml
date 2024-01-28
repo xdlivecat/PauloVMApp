@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xdliverblx.paulovm"
     android:versionCode="29"
-    android:versionName="1.5" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    android:versionName="1.5-beta-1" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
     <uses-sdk
         android:minSdkVersion="26"
         android:targetSdkVersion="34" />
@@ -51,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xdliverblx.paulovm.MyActivity"
+            android:name="com.xdliverblx.paulovm.SigninActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xdliverblx.paulovm.SigninActivity"
+            android:name="com.xdliverblx.paulovm.MyActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
