@@ -56,4 +56,10 @@
         android:layout_marginTop="16dp"
         android:text="Don't have an account? Sign up" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Signing in is currently in the works. In the meanwhile, please use &quot;Login as Guest&quot;." />
+
 </LinearLayout>

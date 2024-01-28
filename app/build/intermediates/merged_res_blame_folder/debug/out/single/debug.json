@@ -8,6 +8,10 @@
         "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-50:\\layout\\activity_my.xml"
     },
     {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\xml_preferences.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-50:\\xml\\preferences.xml"
+    },
+    {
         "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
         "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-50:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },

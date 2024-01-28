@@ -21,11 +21,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.Display;
-import android.view.Menu;
-import android.view.MenuItem;
+
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebChromeClient;
@@ -33,21 +29,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.PopupMenu;
-import android.widget.Toast;
-import android.view.View;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.Button;
-import com.xdliverblx.paulovm.R;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.PopupMenu;
-import android.widget.ToggleButton;
-
-import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 public class MyActivity extends AppCompatActivity {
 
@@ -70,7 +51,6 @@ public class MyActivity extends AppCompatActivity {
         webView.setWebChromeClient(new WebChromeClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        Button openSettings = findViewById(R.id.settings);
         Button toggleKeyboard = findViewById(R.id.toggleKeyboardButton);
 
         toggleKeyboard.setOnClickListener(new View.OnClickListener() {
@@ -79,14 +59,7 @@ public class MyActivity extends AppCompatActivity {
                 toggleKeyboard();
             }
         });
-
-        openSettings.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MyActivity.this, SettingsFragment.class);
-                startActivity(intent);
-            }
-        });
+        ;
     }
 
     public class mywebClient extends WebViewClient {

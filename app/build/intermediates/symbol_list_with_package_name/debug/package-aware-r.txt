@@ -77,6 +77,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array pref_language_entries
+array pref_language_values
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -3357,7 +3359,6 @@ id checkbox
 id checked
 id chronometer
 id circle_center
-id clearCacheButton
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -3480,6 +3481,7 @@ id m3_side_sheet
 id marquee
 id masked
 id match_parent
+id materialToolbar
 id material_clock_display
 id material_clock_display_and_toggle
 id material_clock_face
@@ -3630,7 +3632,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signin
 id sin
 id skipCollapsed
 id slide
@@ -3947,7 +3948,6 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-menu popup_menu
 mipmap ic_launcher
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground

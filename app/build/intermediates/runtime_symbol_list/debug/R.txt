@@ -76,6 +76,8 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001e
 int animator mtrl_fab_show_motion_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020020
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020021
+int array pref_language_entries 0x7f150000
+int array pref_language_values 0x7f150001
 int attr actionBarDivider 0x7f030000
 int attr actionBarItemBackground 0x7f030001
 int attr actionBarPopupTheme 0x7f030002
@@ -3356,7 +3358,6 @@ int id checkbox 0x7f08006c
 int id checked 0x7f08006d
 int id chronometer 0x7f08006e
 int id circle_center 0x7f08006f
-int id clearCacheButton 0x7f080070
 int id clear_text 0x7f080071
 int id clip_horizontal 0x7f080072
 int id clip_vertical 0x7f080073
@@ -3479,6 +3480,7 @@ int id m3_side_sheet 0x7f0800e7
 int id marquee 0x7f0800e8
 int id masked 0x7f0800e9
 int id match_parent 0x7f0800ea
+int id materialToolbar 0x7f0801e5
 int id material_clock_display 0x7f0800eb
 int id material_clock_display_and_toggle 0x7f0800ec
 int id material_clock_face 0x7f0800ed
@@ -3629,7 +3631,6 @@ int id shortcut 0x7f08017d
 int id showCustom 0x7f08017e
 int id showHome 0x7f08017f
 int id showTitle 0x7f080180
-int id signin 0x7f080181
 int id sin 0x7f080182
 int id skipCollapsed 0x7f080183
 int id slide 0x7f080184
@@ -3946,7 +3947,6 @@ int layout select_dialog_item_material 0x7f0b007c
 int layout select_dialog_multichoice_material 0x7f0b007d
 int layout select_dialog_singlechoice_material 0x7f0b007e
 int layout support_simple_spinner_dropdown_item 0x7f0b007f
-int menu popup_menu 0x7f0d0000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_background 0x7f0e0001
 int mipmap ic_launcher_foreground 0x7f0e0002
