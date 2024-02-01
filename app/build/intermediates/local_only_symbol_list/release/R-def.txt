@@ -1,5 +1,7 @@
 R_DEF: Internal format may change without notice
 local
+array pref_language_entries
+array pref_language_values
 color _light_green
 color alice_blue
 color antique_white
@@ -144,13 +146,12 @@ dimen activity_horizontal_margin
 dimen activity_vertical_margin
 drawable ic_launcher_background
 id buttonLogin
-id button_popup
-id clearCacheButton
+id buttonLoginGuest
 id editTextEmail
 id editTextPassword
 id imageViewLogo
 id progressBar
-id signin
+id textView
 id textViewForgotPassword
 id textViewLoading
 id textViewSignUp
@@ -159,7 +160,6 @@ id webview
 layout activity_my
 layout activity_signin
 layout activity_splash_screen
-menu popup_menu
 mipmap ic_launcher
 mipmap ic_launcher_background
 mipmap ic_launcher_foreground

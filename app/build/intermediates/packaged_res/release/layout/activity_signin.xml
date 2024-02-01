@@ -32,6 +32,8 @@
         android:text="Forgot Password?" />
 
     <!-- Login Button -->
+
+    <!-- Sign up TextView -->
     <Button
         android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
@@ -39,7 +41,13 @@
         android:layout_marginTop="16dp"
         android:text="Login" />
 
-    <!-- Sign up TextView -->
+    <Button
+        android:id="@+id/buttonLoginGuest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Login as Guest" />
+
     <TextView
         android:id="@+id/textViewSignUp"
         android:layout_width="wrap_content"
@@ -47,5 +55,11 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
         android:text="Don't have an account? Sign up" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Signing in is currently in the works. In the meanwhile, please use &quot;Login as Guest&quot;." />
 
 </LinearLayout>

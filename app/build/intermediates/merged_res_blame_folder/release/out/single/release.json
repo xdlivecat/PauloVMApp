@@ -100,10 +100,6 @@
         "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/menu_popup_menu.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/menu/popup_menu.xml"
-    },
-    {
         "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
         "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher.webp"
     }

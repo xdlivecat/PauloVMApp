@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="pref_language_entries">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+    </string-array>
     <color name="_light_green">#90EE90</color>
     <color name="alice_blue">#F0F8FF</color>
     <color name="antique_white">#FAEBD7</color>

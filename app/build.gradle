@@ -6,10 +6,11 @@ android {
     compileSdk 34
     defaultConfig {
         applicationId "com.xdliverblx.paulovm"
-        minSdkVersion 26
+        minSdkVersion 24
         targetSdkVersion 34
-        versionCode 30
-        versionName "1.5-beta-2"
+        versionCode 31
+        versionName "1.5-beta-3"
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
         multiDexEnabled true
     }
     lintOptions {

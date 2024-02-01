@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xdliverblx.paulovm"
-    android:versionCode="29"
-    android:versionName="1.5-beta-1" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+    android:versionCode="31"
+    android:versionName="1.5-beta-3" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
     <uses-sdk
-        android:minSdkVersion="26"
+        android:minSdkVersion="24"
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
@@ -40,7 +40,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.xdliverblx.paulovm.MyActivity"
+            android:name="com.xdliverblx.paulovm.SplashScreenActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -58,7 +58,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.xdliverblx.paulovm.SplashScreenActivity"
+            android:name="com.xdliverblx.paulovm.MyActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
