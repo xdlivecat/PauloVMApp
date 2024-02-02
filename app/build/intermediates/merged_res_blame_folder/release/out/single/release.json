@@ -1,106 +1,110 @@
 [
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\layout_activity_my.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\layout\\activity_my.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/layout_activity_signin.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/layout/activity_signin.xml"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-hdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-hdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-mdpi_ic_launcher_background.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-mdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-hdpi_ic_launcher_background.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xhdpi_ic_launcher_background.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xhdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_background.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxxhdpi/ic_launcher_background.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xhdpi\\ic_launcher_background.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-hdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "com.xdliverblx.paulovm.app-merged_res-48:/layout_activity_my.xml.flat",
         "source": "com.xdliverblx.paulovm.app-main-49:/layout/activity_my.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-mdpi/ic_launcher_foreground.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-mdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-mdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\layout_activity_signin.xml.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\layout\\activity_signin.xml"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxxhdpi\\ic_launcher_background.webp"
     },
     {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_background.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxhdpi/ic_launcher_background.webp"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/layout_activity_splash_screen.xml.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/layout/activity_splash_screen.xml"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher_foreground.webp"
-    },
-    {
-        "merged": "com.xdliverblx.paulovm.app-merged_res-48:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.xdliverblx.paulovm.app-main-49:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-merged_res-48:\\mipmap-xxhdpi_ic_launcher_background.webp.flat",
+        "source": "C:\\Users\\#Maxwell2024\\.gradle\\daemon\\8.5\\com.xdliverblx.paulovm.app-main-49:\\mipmap-xxhdpi\\ic_launcher_background.webp"
     }
 ]

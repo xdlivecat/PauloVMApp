@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.xdliverblx.paulovm"
-4    android:versionCode="31"
-5    android:versionName="1.5-beta-3" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+4    android:versionCode="32"
+5    android:versionName="1.5-beta-4" > <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
 6    <uses-sdk
 7        android:minSdkVersion="24"
 8        android:targetSdkVersion="34" />
